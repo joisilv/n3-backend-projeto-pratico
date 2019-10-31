@@ -1,0 +1,22 @@
+{
+  "name": "primeiro-projeto",
+  "version": "1.0.0",
+  "description": "Meu primeiro projeto pratico com aprendizado do curso de backend da reprograma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joisilv/n3-backend-projeto-pratico.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joisilv/n3-backend-projeto-pratico/issues"
+  },
+  "homepage": "https://github.com/joisilv/n3-backend-projeto-pratico#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
