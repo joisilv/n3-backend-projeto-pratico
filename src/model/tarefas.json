@@ -3,25 +3,29 @@
       "id": 1,
       "dataInclusao": "19/02/2019",
       "concluido": "false",
-      "descricao": "Tarefa 1 - Agora Vai" 
-      
+      "descricao": "Tarefa 1 - Agora Vai",
+      "nomeColaborador": "Ingrid"
+
     },
     {
       "id": 2,
       "dataInclusao": "19/07/2019",
       "concluido": "true",
-      "descricao": "Tarefa 2 - Vai com Fé" 
+      "descricao": "Tarefa 2 - Vai com Fé",
+      "nomeColaborador": "Silvania"
     },
     {
       "id": 3,
       "dataInclusao": "24/10/2019",
       "concluido": "false",
-      "descricao": "Tarefa 3 - Confia" 
+      "descricao": "Tarefa 3 - Confia",
+      "nomeColaborador": "Joice" 
     },
     {
       "id": 4,
       "dataInclusao": "27/10/2019",
       "concluido": "true",
-      "descricao": "Tarefa 4 - Fase final" 
+      "descricao": "Tarefa 4 - Fase final",
+      "nomeColaborador": "Maria" 
     }
-]
+] 

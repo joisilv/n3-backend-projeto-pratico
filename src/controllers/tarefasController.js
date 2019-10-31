@@ -36,16 +36,14 @@ exports.get = (req, res) => {
 // }
 
 
-// exports.getConcluido = (req, res) => {
-//   const concluido = tarefas.filter(tarefa => {
-//     console.log(tarefa)
-//     return tarefa.concluido == "true"
-//   })
-//   const conclusaoTarefa = concluido.map(tarefa => tarefa.nome)
+exports.getConcluido = (req, res) => {
+const conclusaoTarefa = tarefas.filter(tarefa => tarefa.concluido == "true")
+res.status(200).send(conclusaoTarefa)
+}
 
-//   res.status(200).send(conclusaoTarefa)
-// }
-
-
+exports.getNomeColaborador = (req, res) => {
+  const tarefaColaborador = tarefas.filter(tarefa => tarefa.colaborador)
+  res.status(200).send(tarefaColaborador)
+  }
 
 
