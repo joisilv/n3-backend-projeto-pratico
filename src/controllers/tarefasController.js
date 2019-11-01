@@ -41,9 +41,15 @@ const conclusaoTarefa = tarefas.filter(tarefa => tarefa.concluido == "true")
 res.status(200).send(conclusaoTarefa)
 }
 
-exports.getNomeColaborador = (req, res) => {
-  const tarefaColaborador = tarefas.filter(tarefa => tarefa.colaborador)
-  res.status(200).send(tarefaColaborador)
+exports.getByNome = (req, res) => {
+  const nome = req.params.nomeColaborador
+  const encontrarNome = tarefas.filter(tarefa => tarefa.nomeColaborador == nome)
+  if(encontrarNome.length == 0){
+    res.sendStatus(404)
   }
+  else{
+  res.status(200).send(encontrarNome)}
+  
+}
 
 
